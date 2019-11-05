@@ -2,3 +2,10 @@ input[type=checkbox]
 {
     width: auto;
 }
+
+.tr-products .tr-product-thumbnail>a img
+{
+    height: 300px;
+    object-position: center center;
+    object-fit: cover;
+}
