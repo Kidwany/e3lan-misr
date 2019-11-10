@@ -9,3 +9,8 @@ input[type=checkbox]
     object-position: center center;
     object-fit: cover;
 }
+
+.summary-cart
+{
+    border-left: none;
+}
