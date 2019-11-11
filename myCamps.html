@@ -54,7 +54,6 @@
 
 
 <div class="wrapper">
-
     <!--== Header Start ==-->
     <nav class="navbar navbar-default navbar-fixed navbar-transparent white bootsnav on no-full">
         <!--== Start Top Search ==-->
@@ -227,200 +226,190 @@
         </div>
     </nav>
     <!--== Header End ==-->
+
     <!--== Page Title Start ==-->
     <div class="transition-none">
-        <section class="title-hero-bg parallax-effect" style="background-image: url(assets/images/services/1.jpg);">
+        <section class="parallax-effect title-hero-bg" style="background-image: url(assets/images/background/my-camp-bg.jpg); min-height: 290px !important;">
             <div class="container">
                 <div class="page-title text-center white-color">
-                    <h1>Our Campaign</h1>
-                    <h4 class="text-uppercase mt-30">Know More About Our Campaign</h4>
+                    <h1>My Campaigns</h1>
+                    <h4 class="text-uppercase mt-30">List Of My Latest Campaigns</h4>
                 </div>
             </div>
         </section>
     </div>
     <!--== Page Title End ==-->
 
-    <!--== Featured Product Start ==-->
-    <section>
-        <div class="container-fluid">
-            <div>
-                <div class="col-md-9 col-sm-9 col-xs-12 xs-mb-50" style="  background-color: #639398;"> 
-                        <div  style="  background-color: #639398;">
-                                <div class="col-sm-8 section-heading white-color">
-                                    <!-- <h1 class="roboto-font font-700">Send Message</h1> -->
-                                    <h3 class="roboto-font font-300">Tell us your target. We'll grow your business.</h3>
-                                </div>
-                            </div>
-                        <form name="contact-form" id="contact-form" action="php/contact.php" method="POST" class="contact-form-style-02">
-                            <div class="messages"></div>
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="form-group">
-                                        <label class="sr-only" for="name">Name</label>
-                                        <input type="text" name="name" class="md-input style-02" id="name" placeholder="Name *" required data-error="Your Name is Required">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="form-group">
-                                        <label class="sr-only" for="email">Email</label>
-                                        <input type="email" name="email" class="md-input style-02" id="email" placeholder="Email *" required data-error="Please Enter Valid Email">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <!--<div class="col-md-6 col-sm-6">-->
-                                <!--    <div class="form-group">-->
-                                <!--        <label class="sr-only" for="name">Company</label>-->
-                                <!--        <input type="text" name="name" class="md-input style-02" id="name" placeholder="Company ">-->
-                                <!--        <div class="help-block with-errors"></div>-->
-                                <!--    </div>-->
-                                <!--</div>-->
-        
-                                <div class="col-md-12 col-sm-12" >
-                                    <div class="form-group">
-                                        <label class="sr-only" for="name">Phone</label>
-                                        <input type="text" name="name" class="md-input style-02" id="name" placeholder="Phone " dir="ltr">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-        
-                                <!--<div class="col-md-12 col-sm-12">-->
-                                <!--    <div class="form-group">-->
-                                <!--        <label class="sr-only" for="subject">Subject</label>-->
-                                <!--        <input type="text" name="subject" class="md-input style-02" id="subject-2" placeholder="Subject">-->
-                                <!--    </div>-->
-                                <!--</div>-->
-                                <!--<div class="col-md-12 col-sm-12">-->
-                                <!--    <div class="form-group">-->
-                                <!--        <label class="sr-only" for="message">Message</label>-->
-                                <!--        <textarea name="message" class="md-textarea style-02" id="message" rows="7" placeholder="Message " required data-error="Please, Leave us a message"></textarea>-->
-                                <!--        <div class="help-block with-errors"></div>-->
-                                <!--    </div>-->
-                                <!--</div>-->
-                                <div class="col-md-12 col-sm-12" >
-                                    <div class="text-left mt-20" style="margin-bottom: 3%;" >
-                                        <button type="submit" name="submit" style="background-color: #2b4052;" class="btn btn-color btn-md btn-square btn-animate remove-margin"><span>Build Your Campaign <i class="ion-android-arrow-forward"></i></span></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                   
+    <section class="">
+        <div class="container">
+            <!--======================== First Campaign =======================-->
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12 xs-mb-30">
+                    <h2 class="font-700 font-40px mt-20">Ramadan Campaign</h2>
+                    <hr class="left-line white-bg">
                 </div>
-                <div class="col-md-3 col-sm-3 col-xs-12">
-                    <div class="widget sidebar_widget">
-                        <h5 class="aside-title text-uppercase">Choose Area</h5>
-                        <form method="get">
-                            <select name="orderby" style="color: #333">
-                                <option value="menu_order" selected="selected">All Areas </option>
-                                <option value="popularity">6 October Bridge</option>
-                                <option value="rating">Mohandessin & 15th May</option>
-                                <option value="date">Mehwar 26th July</option>
-                                <option value="price">El Sheikh Zayed/ 6 October City</option>
-                                <option value="price-desc">Cairo Alex Desert Road</option>
-                                <option value="price-desc">El Wahat Road</option>
-                                <option value="price-desc">Waslet Dahshour</option>
-                            </select> <input type="hidden" name="paged" value="1">
-                            <!--<input type="text" name="name" class="md-input" id="search" required="" placeholder="Type what it's your mind...">-->
-                            <button type="submit" class="icofont icofont-search-alt-2 search-submit"></button>
-                        </form>
-                    </div>
-
-                    <div class="widget sidebar_widget">
-                        <h5 class="aside-title text-uppercase">Choose District</h5>
-                        <select name="orderby" style="color: #333">
-                            <option value="menu_order" selected="selected">All Districts </option>
-                            <option value="popularity">Nasr City</option>
-                            <option value="rating">Ramsees - Ghamra</option>
-                            <option value="date">Heliopolis</option>
-                            <option value="price">Dokki</option>
-
-                        </select> <input type="hidden" name="paged" value="1">
-                        <button type="submit" class="icofont icofont-search-alt-2 search-submit"></button>
-                    </div>
-
-                    <div class="widget sidebar_widget display-block">
-                        <h5 class="aside-title text-uppercase">Choose Sizes</h5>
-                        <div class="row">
-                            <div class="container-fluid">
-                                <div class="col-lg-6">
-                                    <div class="form-check">
-                                        <input type="checkbox" name="vehicle1" value="Bike"> Large<br>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="form-check">
-                                        <input type="checkbox" name="vehicle1" value="Bike">Mega<br>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="form-check">
-                                        <input type="checkbox" name="vehicle1" value="Bike"> Small<br>
-                                    </div>
-                                </div>
-
-
-                            </div>
+                <div class="col-md-8 col-sm-8 col-xs-12">
+                    <div class="row mt-50 ">
+                        <div class="col-md-3 col-sm-6 col-xs-12 xs-mb-20">
+                            <ul class="portfolio-meta">
+                                <li><span> Requested at </span> </li>
+                                <li>25 June 2019</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 xs-mb-20">
+                            <ul class="portfolio-meta">
+                                <li><span> Company </span></li>
+                                <li>Cairo Bank</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 xs-mb-20">
+                            <ul class="portfolio-meta">
+                                <li><span> Status </span></li>
+                                <li>Approved</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 xs-mb-20">
+                            <ul class="portfolio-meta">
+                                <li><span> Availability </span></li>
+                                <li>Available</li>
+                            </ul>
                         </div>
                     </div>
+                </div>
 
-                    <div class="widget sidebar_widget display-block">
-                        <h5 class="aside-title text-uppercase">Choose Type</h5>
-                        <div class="row">
-                            <div class="container-fluid">
-                                <div class="col-lg-6">
-                                    <div class="form-check">
-                                        <input type="checkbox" name="vehicle1" value="Bike"> Mega<br>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="form-check">
-                                        <input type="checkbox" name="vehicle1" value="Bike">Sky Mark<br>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="form-check">
-                                        <input type="checkbox" name="vehicle1" value="Bike"> Gate<br>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-6">
-                                    <div class="form-check">
-                                        <input type="checkbox" name="vehicle1" value="Bike"> Uni-Pole<br>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-6">
-                                    <div class="form-check">
-                                        <input type="checkbox" name="vehicle1" value="Bike"> Flag<br>
-                                    </div>
-                                </div>
-
-
-                            </div>
+                <div class="check-btns">
+                    <div class="tr-modal-popup">
+                        <a href="#camp-details" class="btn btn-color btn-md btn-animate" data-effect="mfp-zoom-in"><span>Campaign Items <i class="ion-checkmark"></i></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="line-horizontal grey-bg width-100-percent centerize-col mt-10"></div>
+            <!--======================== Second Campaign =======================-->
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12 xs-mb-30">
+                    <h2 class="font-700 font-40px mt-20">Summer Campaign</h2>
+                    <hr class="left-line white-bg">
+                </div>
+                <div class="col-md-8 col-sm-8 col-xs-12">
+                    <div class="row mt-50 ">
+                        <div class="col-md-3 col-sm-6 col-xs-12 xs-mb-20">
+                            <ul class="portfolio-meta">
+                                <li><span> Requested at </span> </li>
+                                <li>25 June 2019</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 xs-mb-20">
+                            <ul class="portfolio-meta">
+                                <li><span> Company </span></li>
+                                <li>Pepsi Corp </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 xs-mb-20">
+                            <ul class="portfolio-meta">
+                                <li><span> Status </span></li>
+                                <li>Rejected</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 xs-mb-20">
+                            <ul class="portfolio-meta">
+                                <li><span> Availability </span></li>
+                                <li>Not Available</li>
+                            </ul>
                         </div>
                     </div>
-                    <!--<div class="mb-50">
-                        <h5 class="aside-title text-uppercase">Choose Area</h5>
-                        <div class="range-slider-wrap">
-                            <input class="range-slider" type="hidden" value="25,75"/>
-                        </div>
-                    </div>-->
-                    <!--<div class="social-icons-style-06 mb-50">
-                        <h5 class="aside-title text-uppercase">Follow Us</h5>
-                        <ul class="xs-icon">
-                            <li><a class="icon facebook" href="#."><i class="icofont icofont-social-facebook"></i></a></li>
-                            <li><a class="icon twitter" href="#."><i class="icofont icofont-social-twitter"></i></a></li>
-                            <li><a class="icon tumblr" href="#."><i class="icofont icofont-social-tumblr"></i></a></li>
-                            <li><a class="icon flicker" href="#."><i class="icofont icofont-social-flikr"></i></a></li>
-                            <li><a class="icon instagram" href="#."><i class="icofont icofont-social-instagram"></i></a></li>
-                        </ul>
-                    </div>-->
+                </div>
 
+                <div class="check-btns">
+                    <div class="tr-modal-popup">
+                        <a href="#camp-details" class="btn btn-color btn-md btn-animate" data-effect="mfp-zoom-in"><span>Campaign Items <i class="ion-checkmark"></i></span></a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--== Featured Product End ==-->
+
+    <div id="camp-details" class="white-bg all-padding-30 mfp-with-anim mfp-hide centerize-col col-lg-10 col-md-10 col-sm-9 col-xs-11 text-center">
+        <span class="text-uppercase font-25px font-600 mb-10 display-block dark-color">Campaign Items</span>
+        <!-- -------------------- Tabs --------------------------- -->
+        <div class="container">
+            <div class="col-md-11">
+                <div class="table-responsive">
+                    <table class="table table-bordered shop-cart">
+                        <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Code</th>
+                            <th>Type</th>
+                            <th>Duration</th>
+                            <th>Zone</th>
+                            <th>Area</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="cart_item">
+                            <td><a href="serviceDetails.html"> <img src="assets/images/services/Picture1.png" alt=""> </a> </td>
+                            <td><a href="serviceDetails.html">#RMF008</a> </td>
+                            <td><span>Billboard</span> </td>
+                            <td>
+                                From: <span style="font-weight: bold" class="black">July 2019</span><br>
+                                To: <span style="font-weight: bold" class="black">December 2019</span><br>
+                            </td>
+                            <td><span>Greater Cairo</span> </td>
+                            <td><span>Ramsees</span> </td>
+                        </tr>
+
+                        <tr class="cart_item">
+                            <td><a href="serviceDetails.html"> <img src="assets/images/services/Picture3.png" alt=""> </a> </td>
+                            <td><a href="serviceDetails.html">#SDF52</a> </td>
+                            <td><span>Landmark</span> </td>
+                            <td>
+                                From: <span style="font-weight: bold" class="black">August 2019</span><br>
+                                To: <span style="font-weight: bold" class="black">December 2019</span><br>
+                            </td>
+                            <td><span>Greater Cairo</span> </td>
+                            <td><span>Abbasya</span> </td>
+                        </tr>
+
+                        <tr class="cart_item">
+                            <td><a href="serviceDetails.html"> <img src="assets/images/services/Picture2.png" alt=""> </a> </td>
+                            <td><a href="serviceDetails.html">#MOSI55</a> </td>
+                            <td><span>Billboard</span> </td>
+                            <td>
+                                From: <span style="font-weight: bold" class="black">November 2019</span><br>
+                                To: <span style="font-weight: bold" class="black">February 2020</span><br>
+                            </td>
+                            <td><span>Giza</span> </td>
+                            <td><span>23 July Axis</span> </td>
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="summary-cart">
+                    <h6 class="upper-case">Financial Details</h6>
+                    <table class="order_table table-responsive table">
+                        <tbody>
+                        <tr>
+                            <th>Price</th>
+                            <td><span>185,000 L.E</span> </td>
+                        </tr>
+                        <tr>
+                            <th>Printing Cost</th>
+                            <td><span>35,425 L.E</span> </td>
+                        </tr>
+                        <tr>
+                            <th>Total</th>
+                            <td><h6><strong>220,425 L.E</strong></h6></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
 
     <!--== Footer Start ==-->
     <footer class="footer dark-block">
